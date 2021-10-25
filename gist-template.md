@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Explained
 
 Introductory paragraph (replace this with your text)
 
