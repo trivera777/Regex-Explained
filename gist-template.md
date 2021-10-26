@@ -66,6 +66,9 @@ Some of these character classes are:
 
 `\w` - any "wordly" character, from the basic Latin alphabet, including the underscore `_`.
 
+Here is an example:
+
+`alert( "I love HTML5!".match(/\s\w\w\w\w\d/) ); // ' HTML5'`
 
 
 ### The OR Operator
