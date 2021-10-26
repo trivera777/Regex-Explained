@@ -22,7 +22,7 @@ In this gist I will explain how regex is used to match emails using the expressi
 
 ### Anchors
 
-The components of a regex include achors, which are the characters `^` and `$`.
+The components of a regex include achors, which are the characters `^` and `$`. /
 Both anchors together are used to test whether or not a string fully mathes the pattern.
 
 The ^ anchor signifies the beginning of the string.
