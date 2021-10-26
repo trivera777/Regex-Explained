@@ -15,6 +15,7 @@ In this gist I will explain how regex is used to match emails using the expressi
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Author](#author)
 
 ## Regex Components
 
