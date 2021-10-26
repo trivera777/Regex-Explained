@@ -1,6 +1,8 @@
 ## Regex Explained
 
-Short for regular expressions, regex are a series of special characters that define a search pattern. 
+Short for regular expressions, regex are a series of special characters that define a search pattern.
+
+
 
 ## Summary
 
@@ -43,9 +45,21 @@ A quantifier sets the limit of the string that the regex matches.
 
 The number `2` in this case is the minimum and `6` is the maximum number of characters that the regex is looking for.
 
+In other words, the string has to be between `2` and `6` characters long.
+
 ### Grouping Constructs
 
 ### Bracket Expressions
+Brackets inidcate a set of characters to match.
+`/^([a-z0-9])$/`
+
+Below is a good example to further break down bracket expressions,
+`'elephant'.match(/[a-d]/) // -> matches 'a'`
+
+`'elephant'.match(/[A-D]/) // -> no match`
+
+Character sets are case sensitive, unless the `i` flag is set,
+`'elephant'.match(/[A-D]/i) // -> matches 'a'`
 
 ### Character Classes
 
@@ -54,6 +68,9 @@ The number `2` in this case is the minimum and `6` is the maximum number of char
 ### Flags
 
 ### Character Escapes
+Bracket expressions do not always require the string to meet the requirements when searching for a pattern.
+
+
 
 ## Author
 
