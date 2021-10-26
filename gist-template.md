@@ -1,4 +1,4 @@
-#Regex Explained
+## Regex Explained
 
 Short for regular expressions, regex are a series of special characters that define a search pattern. 
 
