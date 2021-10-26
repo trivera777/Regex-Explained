@@ -1,10 +1,12 @@
-# Regex Explained
+#Regex Explained
 
-Introductory paragraph (replace this with your text)
+This tutorial 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will briefly explain how regex is used to match emails using the expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
+
+<!-- Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary. -->
 
 ## Table of Contents
 
@@ -20,6 +22,8 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+
+The components of a regex include achors which are the characters `^` and `$`.
 
 ### Quantifiers
 
@@ -37,4 +41,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+<!-- A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile) -->
