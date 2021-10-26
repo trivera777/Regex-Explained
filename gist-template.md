@@ -37,7 +37,11 @@ Check out this example.
 
 The final component of a regex are quantifiers.
 
-Did you notice this part of the string, {2,6}? That is a quantifier. 
+Did you notice this part of the string, `{2,6}`? That is a quantifier. 
+
+A quantifier sets the limit of the string that the regex matches.
+
+The number `2` in this case is the minimum and `6` is the maximum number of characters that the regex is looking for.
 
 ### Grouping Constructs
 
@@ -53,4 +57,5 @@ Did you notice this part of the string, {2,6}? That is a quantifier.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+<!-- A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+ -->
