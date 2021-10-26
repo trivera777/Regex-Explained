@@ -80,6 +80,14 @@ Here is an example:
 
 
 ### The OR Operator
+The `|` character signifies the OR Operator.
+
+A good example:
+
+`(a|b):(c)`
+
+This would match `ac` OR `bc`.
+
 
 ### Flags
 Flags define additional funcationality or limits for the regex.
