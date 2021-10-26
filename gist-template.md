@@ -93,9 +93,14 @@ The three most common flags are
 `m` - Multi-Line Search: will be treated as multiple lines.
 
 ### Character Escapes
-Bracket expressions do not always require the string to meet the requirements when searching for a pattern.
+The backslash `\` is a regex escape character.
+
+To reference a literal character, you must escape it within the regular expressiion.
+
+Example:
 
 
+`/\?/`
 
 ## Author
 
