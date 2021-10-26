@@ -80,14 +80,6 @@ Here is an example:
 
 
 ### The OR Operator
-The `|` character signifies the OR Operator.
-
-A good example:
-
-`(a|b):(c)`
-
-This would match `ac` OR `bc`.
-
 
 ### Flags
 Flags define additional funcationality or limits for the regex.
@@ -107,10 +99,7 @@ To reference a literal character, you must escape it within the regular expressi
 
 Example:
 
-
-`/\?/`
+`/\?/` - will find the literal character `?`.
 
 ## Author
-
-<!-- A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
- -->
+![GitHub Link](https://github.com/trivera777)
