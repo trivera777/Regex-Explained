@@ -27,6 +27,7 @@ The components of a regex include achors, which are the characters `^` and `$`.
 Both anchors together are used to test whether or not a string fully mathes the pattern.
 
 The ^ anchor signifies the beginning of the string.
+
 While the $ anchor signifies the end of the string.
 
 Check out this example.
@@ -35,6 +36,7 @@ Check out this example.
 ### Quantifiers
 
 The final component of a regex are quantifiers.
+
 Did you notice this part of the string, {2,6}? That is a quantifier. 
 
 ### Grouping Constructs
