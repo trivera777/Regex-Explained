@@ -54,11 +54,13 @@ Brackets inidcate a set of characters to match.
 `/^([a-z0-9])$/`
 
 Below is a good example to further break down bracket expressions,
+
 `'elephant'.match(/[a-d]/) // -> matches 'a'`
 
 `'elephant'.match(/[A-D]/) // -> no match`
 
 Character sets are case sensitive, unless the `i` flag is set,
+
 `'elephant'.match(/[A-D]/i) // -> matches 'a'`
 
 ### Character Classes
