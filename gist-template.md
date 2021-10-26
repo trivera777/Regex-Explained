@@ -103,7 +103,7 @@ Example:
 `/\?/` - will find the literal character `?`.
 
 ## Author
-
+[GitHub](https://github.com/trivera777)
 
 <p align="center">
   <a href="mailto:trivera51580@gmail.com?subject=Hello%20Tifanny%20Rivera"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
