@@ -33,7 +33,6 @@ The `^` anchor signifies the beginning of the string.
 While the `$` anchor signifies the end of the string.
 
 Check out this example.
-
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ### Quantifiers
@@ -52,25 +51,32 @@ In other words, the string has to be between `2` and `6` characters long.
 
 ### Bracket Expressions
 Brackets inidcate a set of characters to match.
-
 `/^([a-z0-9])$/`
 
 Below is a good example to further break down bracket expressions,
-
 `'elephant'.match(/[a-d]/) // -> matches 'a'`
 
 `'elephant'.match(/[A-D]/) // -> no match`
 
 Character sets are case sensitive, unless the `i` flag is set,
-
 `'elephant'.match(/[A-D]/i) // -> matches 'a'`
 
 ### Character Classes
+Character classes remove anything that's not a number.
+
+Some of these character classes are:
+`\d` - any digit from `0` to `9`.
+
+`\s` - any space, including tabs and line breaks.
+
+`\w` - any "wordly" character, from the basic Latin alphabet, including the underscore `_`.
+
+
 
 ### The OR Operator
 
 ### Flags
-
+Flags define addiotional funcationality or limits for the regex.
 ### Character Escapes
 Bracket expressions do not always require the string to meet the requirements when searching for a pattern.
 
