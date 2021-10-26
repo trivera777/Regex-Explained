@@ -1,13 +1,12 @@
 #Regex Explained
 
-This tutorial 
+Short for regular expressions, regex are a series of special characters that define a search pattern. 
 
 ## Summary
 
-I will briefly explain how regex is used to match emails using the expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
-
-<!-- Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary. -->
-
+In this gist I will explain how regex is used to match emails using the expression `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`.
+<!-- Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+ -->
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -23,9 +22,19 @@ I will briefly explain how regex is used to match emails using the expression `/
 
 ### Anchors
 
-The components of a regex include achors which are the characters `^` and `$`.
+The components of a regex include achors, which are the characters `^` and `$`.
+Both anchors together are used to test whether or not a string fully mathes the pattern.
+
+The ^ anchor signifies the beginning of the string.
+While the $ anchor signifies the end of the string.
+
+Check out this example.
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ### Quantifiers
+
+The final component of a regex are quantifiers.
+Did you notice this part of the string, {2,6}? That is a quantifier. 
 
 ### Grouping Constructs
 
@@ -41,4 +50,4 @@ The components of a regex include achors which are the characters `^` and `$`.
 
 ## Author
 
-<!-- A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile) -->
+A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
