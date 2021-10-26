@@ -26,9 +26,9 @@ The components of a regex include achors, which are the characters `^` and `$`.
 
 Both anchors together are used to test whether or not a string fully mathes the pattern.
 
-The ^ anchor signifies the beginning of the string.
+The `^` anchor signifies the beginning of the string.
 
-While the $ anchor signifies the end of the string.
+While the `$` anchor signifies the end of the string.
 
 Check out this example.
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
