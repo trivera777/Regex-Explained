@@ -72,11 +72,11 @@ Some of these character classes are:
 
 Here is an example:
 
-`let str = "Is there CSS4?";
+`let str = "Is there CSS4?";`
 
-let regexp = /CSS\d/
+`let regexp = /CSS\d/`
 
-alert( str.match(regexp) ); // CSS4`
+`alert( str.match(regexp) ); // CSS4`
 
 
 ### The OR Operator
